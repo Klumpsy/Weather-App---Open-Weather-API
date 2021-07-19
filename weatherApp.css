@@ -1,0 +1,56 @@
+* { 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    height: 100vh; 
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgb(133, 187, 192),rgb(68, 93, 126));
+    font-family: sans-serif;
+    color:white;
+}
+
+h1 { 
+    font-size: 3rem;
+    text-align: center;
+}
+
+.iconDisplay, 
+.temperature { 
+    height: 20vh;
+    width: 30%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temperature { 
+    flex-direction: column;
+}
+
+.degreeSection { 
+    display: flex;
+    font-size: 3rem;
+}
+
+.degreeSection span { 
+    font-size: 2rem;
+}
+
+.extraInfo { 
+    margin: 2rem;
+    display: flex;
+}
+
+.pressure, 
+.humidity, 
+.uvIndex,
+.uvIndexScore { 
+    margin-left: 1rem
+}

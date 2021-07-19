@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weatherApp.css">
+    <title>Weather by Klumpers</title>
+</head>
+<body>
+    <h1>Jouw lokale weerbericht</h1>
+    <div class="iconDisplay">
+        <canvas id="icon" width="128" height="128"></canvas>
+    </div>
+    <div class="temperature">
+        <div class="degreeSection">
+            <h2 class="degree"></h2>
+            <span>C</span>
+        </div>
+        <div >
+            <span>Voelt als: </span>
+            <span class="temperatureFeel">:</span>
+            <span>c</span>
+        </div>
+    </div>
+    <div class="extraInfoContainer">
+        <div class="extraInfo">
+            <span>Luchtdruk:</span>
+            <h3 class="pressure"></h3>
+        </div>
+        <div class="extraInfo">
+            <span>Luchtvochtigheid:</span>
+            <h3 class="humidity"></h3>
+        </div>
+        <div class="extraInfo">
+            <span>UV index:</span>
+            <h3 class="uvIndex"></h3>
+            <span class="uvIndexScore">Zwak</span>
+        </div>
+    </div>
+
+        <div class="description">Deze weerApp wordt onderhouden door Bart Klumpers</div>
+    <script src="skycons.js"></script>
+    <script src="weatherApp.js"></script>
+</body>
+</html>
