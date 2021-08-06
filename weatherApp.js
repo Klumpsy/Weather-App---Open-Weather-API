@@ -1,7 +1,7 @@
 window.addEventListener('load', () => {
     let lon; 
     let lat; 
-    const apiKey = '19b653f3ac7eadb9a861e23697f93d04';
+    const apiKey = 'Your API';
     let temperatureDescription = document.querySelector(".degree");
     let pressureDescription = document.querySelector(".pressure"); 
     let humidityDescription = document.querySelector(".humidity");
